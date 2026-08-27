@@ -97,9 +97,9 @@ PF  = {enabled=false,target=nil,tracking=false}
 EP  = {
     {"Fortune","Ancient","Insight"},
     {"Fortune","Ancient","Ancient"},
-    {"Fortune","Insight","Insight"},
-    {"Insight","Insight","Insight"},
-    {"None","None","None"},
+    {"Fortune","Fortune","Ancient"},
+    {"Looting","Insight","Sharpness"},
+    {"Looting","Sharpness","Desperation"},
 }
 Stats             = {sessKills=0,sessEnch=0,allKills=0,allEnch=0}
 hudNoobs          = 0
@@ -117,7 +117,7 @@ pfConn            = nil
 RARITY_OPTIONS = {"None","Common","Uncommon","Rare","Epic","Legendary","Mythical","Divine",
     "Super","Mega","Ultra","Omega","Extreme","Ultimate","Insane","Hyper","Godly",
     "Unique","Exotic","Supreme","Celestial","Eternal","Cosmic"}
-ENCHANT_OPTIONS = {"None","Fortune","Sharpness","Protection","Haste","Swiftness","Critical",
+ENCHANT_OPTIONS = {"None","Fortune","Sharpness","Protection","Haste","Swiftness","Critical","Thorn",
     "Resistance","Healing","Looting","Attraction","Stealth","Ancient","Desperation","Insight","Opulence"}
 BOSS_RARITY_LIST = {"None","Common","Uncommon","Rare","Epic","Legendary","Mythical","Divine",
     "Super","Mega","Ultra","Omega","Extreme","Ultimate","Insane","Hyper","Godly",
